@@ -1,0 +1,98 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc15668a --dep-file=Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Configurations -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Spi -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Emem -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Emem\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft\\\\Fft -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tim -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tim\\\\In -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\APP -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\Driver -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\Main -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\User -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c'
+
+	
+$TC16X
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	578
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Code\\Infineon\\TC264\\SmartCar\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L5
+	.byte	2
+	.byte	'short int',0,2,5,3
+	.byte	'__wchar_t',0,1,1,1
+	.word	212
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'__size_t',0,1,1,1
+	.word	243
+	.byte	2
+	.byte	'int',0,4,5,3
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	276
+	.byte	4,1,5
+	.word	303
+	.byte	3
+	.byte	'__codeptr',0,1,1,1
+	.word	305
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'uint8',0,2,108,29
+	.word	328
+	.byte	2
+	.byte	'unsigned short int',0,2,7,3
+	.byte	'uint16',0,2,112,29
+	.word	359
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'uint32',0,2,116,29
+	.word	396
+	.byte	3
+	.byte	'sint16',0,2,129,1,29
+	.word	212
+	.byte	2
+	.byte	'long int',0,4,5,3
+	.byte	'sint32',0,2,134,1,29
+	.word	448
+	.byte	2
+	.byte	'long long int',0,8,5,3
+	.byte	'sint64',0,2,141,1,29
+	.word	476
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'float32',0,2,170,1,29
+	.word	509
+	.byte	6
+	.byte	'void',0,5
+	.word	535
+	.byte	3
+	.byte	'pvoid',0,3,54,28
+	.word	541
+	.byte	3
+	.byte	'Ifx_TickTime',0,3,76,28
+	.word	476
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,4,21,0,54,15,0,0,5,15,0,73,19,0,0,6,59,0,3,8,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c',0,0,0,0
+	.byte	'D:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'D:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0,0
+.L9:
+.L7:
+	; Module end
