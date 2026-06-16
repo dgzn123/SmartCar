@@ -178,11 +178,10 @@ void MOTOR_Timer(void)
             }
             else//开环百分比控制
             {
-                if(icarStr.SpeedSet > 100)
-                    icarStr.SpeedSet = 100;
-                else if(icarStr.SpeedSet < -100)
-                    icarStr.SpeedSet = -100;
-                signed int speedRate = MOTOR_PWM_MAX/100.f*icarStr.SpeedSet; //开环：百分比%
+                float spd = icarStr.SpeedSet;       // 用局部变量，不污染原值
+                if(spd > 100)   spd = 100;
+                else if(spd < -100) spd = -100;
+                signed int speedRate = MOTOR_PWM_MAX/100.f * spd; //开环：百分比%
                 
                 MOTOR_SetPwmValue(speedRate);		//开环速控
             }

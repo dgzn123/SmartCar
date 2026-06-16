@@ -31,7 +31,7 @@ void ICAR_Init(void)
 	icarStr.SpeedSet = 0.0f;				    //电机目标速度：m/s
 	icarStr.SpeedFeedback = 0.0f;		        //电机模型实测速度：m/s
 	icarStr.SpeedMaxRecords = 0.0f;
-    icarStr.ServoPwmSet = servoStr.thresholdMiddle;
+    icarStr.ServoPwmSet = SERVO_PWM_MIDDLE;   // 默认中值（Flash不可用时）
 }
 
 
@@ -424,6 +424,7 @@ void ICAR_Selfcheck(void)
         case Selfcheck_Finish:          //测试完成
             GPIO_BuzzerEnable(BuzzerFinish);
             icarStr.selfcheckEnable = FALSE;
+            icarStr.SpeedSet = 0.0f;          // 清零速度，防止退出时电机猛冲
             motorStr.CloseLoop = TRUE;
             //ICAR_Reboot();//重启
             break;

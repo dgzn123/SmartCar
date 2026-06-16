@@ -28,6 +28,7 @@ QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ*/
 #include "LQ_STM.h"
 
 #include "../APP/LQ_GPIO_LED.h"
+#include "include.h"
 
 
 /*************************************************************************
@@ -80,7 +81,11 @@ void STM0_CH0_IRQHandler(void)
 	IfxStm_increaseCompare(&MODULE_STM0, g_StmCompareConfig[0].comparator, g_StmCompareConfig[0].ticks);
 
 	/* 用户代码 */
-	//LED_Ctrl(LED0,RVS);        //电平翻转,LED闪烁
+                  GPIO_Timer();          //GPIO外设线程
+                  MOTOR_Timer();          //电机控制线程
+                  //SOC_Timer();            //电量计监测线程
+                  ICAR_Timer();           //智能车综合处理线程计数器
+                  USB_Edgeboard_Timr();   //USB通信线程
 }
 
 /*************************************************************************

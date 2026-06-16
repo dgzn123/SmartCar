@@ -164,7 +164,6 @@ void SOC_IIC_Send_Byte(uint8_t txd)
  *************************************************************************/
 uint8_t SOC_IIC_Read_Byte(unsigned char ack)
 {
-    IIC_ReadByte(ack);
     return IIC_ReadByte(ack);
 }
 
@@ -175,7 +174,7 @@ uint8_t SOC_IIC_Read_Byte(unsigned char ack)
 /*************************************************************************
  *  函数名称：SOC_Write_Len()
  *  功能说明：IIC连续写指定长度数据
- *  参数说明：reg:寄存器地址，len:写入长度buff:数据
+ *  参数说明：reg:寄存器地址，len:写入长度�buff:数据
  *  函数返回：返回值:0,：正常,其他：错误代码
  *     作者：河南理工大学漫画技术研究社（漫研社）小漫
  *  修改时间：2024年4月23日

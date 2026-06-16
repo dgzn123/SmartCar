@@ -61,7 +61,7 @@ void FLASH_SaveAllConfig(void)
                 memcpy(ArrayParams_ForFlash+(i++)*4,buff,4);
                 
     //FLASH_WriteBuffToFlash(0,ArrayParams_ForFlash,sizeof(ArrayParams_ForFlash));
-    EEPROM_Write(0, 1, &ArrayParams_ForFlash[0], sizeof(ArrayParams_ForFlash));
+    EEPROM_Write(0, 1, &ArrayParams_ForFlash[0], FLASH_SIZE);
 }
 
 /**
@@ -78,7 +78,7 @@ void FLASH_LoadAllConfig(void)
 	uint8_t buff[4];
     
     //FLASH_ReadFlashNBtye(0,ArrayParams_ForFlash,sizeof(ArrayParams_ForFlash));//读取Flash数据
-	EEPROM_Read(0, 1, ArrayParams_ForFlash, sizeof(ArrayParams_ForFlash));
+	EEPROM_Read(0, 1, ArrayParams_ForFlash, FLASH_SIZE);
     
     /*1*/		memcpy(buff,ArrayParams_ForFlash+(i++)*4,4);
                 if(buff[0] == FLASH_DATA_OK)                //舵机中值PWM
@@ -127,7 +127,7 @@ void FLASH_LoadAllConfig(void)
 **/
 void FLASH_ReadSpecifyParam(uint8_t *pch,uint16 iaddr)
 {
-    EEPROM_Read(0, 1, ArrayParams_ForFlash, sizeof(ArrayParams_ForFlash));
+    EEPROM_Read(0, 1, ArrayParams_ForFlash, FLASH_SIZE);
 }
 
 

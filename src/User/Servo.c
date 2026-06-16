@@ -25,13 +25,15 @@ ServoStruct servoStr;
 **/
 void SERVO_Init(void)
 {
+    // 默认阈值（替代Flash加载）
+    servoStr.thresholdMiddle = SERVO_PWM_MIDDLE;  // 1500
+    servoStr.thresholdLeft   = SERVO_PWM_MAX_L;   // 1150
+    servoStr.thresholdRight  = SERVO_PWM_MAX_R;   // 1850
 
-
-  //PWM-IO初始化
+    //PWM-IO初始化
     ATOM_PWM_InitConfig(IfxGtm_ATOM3_6_TOUT100_P11_11_OUT, 0, 50);
 
     SERVO_SetPwmValue(servoStr.thresholdMiddle);
-    //SERVO_SetPwmValue(1500);
 }
 
 

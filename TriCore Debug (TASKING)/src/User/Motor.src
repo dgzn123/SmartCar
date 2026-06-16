@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc12600a --dep-file=src/User/Motor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Configurations -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Spi -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Emem -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Emem\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft\\\\Fft -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tim -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tim\\\\In -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\APP -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\Driver -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\Main -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\User -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o src/User/Motor.src ../src/User/Motor.c"
+	.compiler_invocation	"ctc -f cc11592a --dep-file=src/User/Motor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Configurations -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr\\\\TC26B -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Spi -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Emem -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Emem\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft\\\\Fft -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Fft\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tim -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tim\\\\In -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\APP -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\Driver -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\Main -ID:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\src\\\\User -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o src/User/Motor.src ../src/User/Motor.c"
 	.compiler_name		"ctc"
 	;source	'../src/User/Motor.c'
 
@@ -16,14 +16,14 @@ $TC16X
 .L23:
 MOTOR_Init:	.type	func
 	sub.a	a10,#24
-.L66:
+.L67:
 	mov.u	d4,#45315
-.L84:
+.L86:
 	mov	d5,#128
-.L85:
+.L87:
 	mov	d6,#0
 	call	PIN_InitConfig
-.L86:
+.L88:
 	movh.a	a15,#@his(IfxGtm_ATOM2_4_TOUT98_P11_9_OUT)
 	lea	a15,[a15]@los(IfxGtm_ATOM2_4_TOUT98_P11_9_OUT)
 	lea	a15,[a15]0
@@ -33,52 +33,52 @@ MOTOR_Init:	.type	func
 	ld.w	d15,[a15+]
 	st.w	[a2+],d15
 	loop	a4,.L2
-.L87:
-	mov	d4,#0
-.L88:
-	mov	d5,#12000
-	call	ATOM_PWM_InitConfig
 .L89:
 	mov	d4,#0
-	call	MOTOR_SetPwmValue
 .L90:
-	movh.a	a15,#@his(motorStr)
-	lea	a15,[a15]@los(motorStr)
+	mov	d5,#12000
+	call	ATOM_PWM_InitConfig
 .L91:
-	movh	d15,#17408
+	mov	d4,#0
+	call	MOTOR_SetPwmValue
 .L92:
-	st.w	[a15]4,d15
-.L93:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
+.L93:
+	movh	d15,#17408
 .L94:
+	st.w	[a15]4,d15
+.L95:
+	movh.a	a15,#@his(motorStr)
+	lea	a15,[a15]@los(motorStr)
+.L96:
 	mov.u	d15,#52429
 	addih	d15,d15,#16428
-.L95:
-	st.w	[a15],d15
-.L96:
-	movh.a	a15,#@his(motorStr)
-	lea	a15,[a15]@los(motorStr)
 .L97:
-	mov	d15,#0
+	st.w	[a15],d15
 .L98:
-	st.w	[a15]8,d15
-.L99:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
+.L99:
+	mov	d15,#0
 .L100:
+	st.w	[a15]8,d15
+.L101:
+	movh.a	a15,#@his(motorStr)
+	lea	a15,[a15]@los(motorStr)
+.L102:
 	mov	d15,#4719
 	addih	d15,d15,#15747
-.L101:
+.L103:
 	st.w	[a15]12,d15
-.L102:
+.L104:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
-.L103:
-	mov	d15,#0
-.L104:
-	st.b	[a15]16,d15
 .L105:
+	mov	d15,#0
+.L106:
+	st.b	[a15]16,d15
+.L107:
 	ret
 .L56:
 	
@@ -96,21 +96,23 @@ __MOTOR_Init_function_end:
 .L25:
 MOTOR_SetPwmValue:	.type	func
 	sub.a	a10,#24
-.L67:
-	rsub	d4,#0
-.L110:
-	mov	d15,d4
-.L69:
-	jlt	d15,#0,.L3
-.L111:
-	mov.u	d4,#45315
 .L68:
+	rsub	d4,#0
+.L112:
+	mov	d15,d4
+.L70:
+	jlt	d15,#0,.L3
+.L113:
+	mov.u	d4,#45315
+.L69:
 	mov	d5,#1
 	call	PIN_Write
-.L112:
-	jlt	d15,#1,.L4
-.L113:
-	mov	d15,#0
+.L114:
+	mov	d0,#1000
+.L115:
+	jge	d0,d15,.L4
+.L116:
+	mov	d15,#1000
 .L4:
 	movh.a	a15,#@his(IfxGtm_ATOM2_4_TOUT98_P11_9_OUT)
 	lea	a15,[a15]@los(IfxGtm_ATOM2_4_TOUT98_P11_9_OUT)
@@ -121,27 +123,29 @@ MOTOR_SetPwmValue:	.type	func
 	ld.w	d0,[a15+]
 	st.w	[a2+],d0
 	loop	a4,.L5
-.L114:
+.L117:
 	mul	d4,d15,#5
-.L115:
+.L118:
 	mov	d5,#12000
 	call	ATOM_PWM_SetDuty
-.L116:
+.L119:
 	j	.L6
 .L3:
 	jge	d15,#0,.L7
-.L117:
+.L120:
 	mov.u	d4,#45315
-.L70:
+.L71:
 	mov	d5,#0
 	call	PIN_Write
-.L118:
-	jge	d15,#0,.L8
-.L119:
-	mov	d15,#0
+.L121:
+	mov	d0,#-1000
+.L122:
+	jge	d15,d0,.L8
+.L123:
+	mov	d15,#-1000
 .L8:
 	rsub	d15,#0
-.L120:
+.L124:
 	movh.a	a15,#@his(IfxGtm_ATOM2_4_TOUT98_P11_9_OUT)
 	lea	a15,[a15]@los(IfxGtm_ATOM2_4_TOUT98_P11_9_OUT)
 	lea	a15,[a15]0
@@ -151,9 +155,9 @@ MOTOR_SetPwmValue:	.type	func
 	ld.w	d0,[a15+]
 	st.w	[a2+],d0
 	loop	a4,.L9
-.L121:
+.L125:
 	mul	d4,d15,#5
-.L122:
+.L126:
 	mov	d5,#12000
 	call	ATOM_PWM_SetDuty
 .L7:
@@ -176,72 +180,72 @@ __MOTOR_SetPwmValue_function_end:
 MOTOR_ControlLoop:	.type	func
 	mov.u	d15,#52429
 	addih	d15,d15,#16396
-.L127:
+.L131:
 	cmp.f	d15,d4,d15
 	extr.u	d15,d15,#2,#1
-.L128:
+.L132:
 	jeq	d15,#0,.L10
-.L129:
+.L133:
 	mov.u	d4,#52429
 	addih	d4,d4,#16396
-.L130:
+.L134:
 	j	.L11
 .L10:
 	mov.u	d15,#52429
 	addih	d15,d15,#49164
-.L131:
+.L135:
 	cmp.f	d15,d4,d15
 	extr.u	d15,d15,#0,#1
-.L132:
+.L136:
 	jeq	d15,#0,.L12
-.L133:
+.L137:
 	mov.u	d4,#52429
 	addih	d4,d4,#49164
 .L12:
 .L11:
 	movh.a	a2,#@his(pidStr)
 	lea	a2,[a2]@los(pidStr)
-.L134:
+.L138:
 	mov.u	d15,#55050
 	addih	d15,d15,#15395
-.L135:
+.L139:
 	mul.f	d0,d4,d15
-.L136:
+.L140:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
-.L137:
+.L141:
 	ld.w	d15,[a15]12
-.L138:
+.L142:
 	div.f	d15,d0,d15
-.L139:
+.L143:
 	mov	d0,#4059
 	addih	d0,d0,#16457
-.L140:
-	div.f	d0,d15,d0
-.L141:
-	movh.a	a15,#@his(motorStr)
-	lea	a15,[a15]@los(motorStr)
-.L142:
-	ld.w	d15,[a15]4
-.L143:
-	mul.f	d15,d0,d15
 .L144:
+	div.f	d0,d15,d0
+.L145:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
-.L145:
-	ld.w	d0,[a15]
 .L146:
-	mul.f	d15,d15,d0
+	ld.w	d15,[a15]4
 .L147:
-	st.w	[a2],d15
+	mul.f	d15,d0,d15
 .L148:
+	movh.a	a15,#@his(motorStr)
+	lea	a15,[a15]@los(motorStr)
+.L149:
+	ld.w	d0,[a15]
+.L150:
+	mul.f	d15,d15,d0
+.L151:
+	st.w	[a2],d15
+.L152:
 	movh.a	a4,#@his(pidStr)
 	lea	a4,[a4]@los(pidStr)
 	call	PID_MoveCalculate
-.L71:
+.L72:
 	mov	d4,d2
 	call	MOTOR_SetPwmValue
-.L149:
+.L153:
 	ret
 .L60:
 	
@@ -262,101 +266,81 @@ MOTOR_Timer:	.type	func
 	lea	a15,[a15]@los(motorStr)
 	movh.a	a2,#@his(motorStr)
 	lea	a2,[a2]@los(motorStr)
-.L154:
+.L158:
 	ld.hu	d15,[a2]18
-.L155:
+.L159:
 	add	d15,#1
 	st.h	[a15]18,d15
-.L156:
+.L160:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
-.L157:
+.L161:
 	ld.hu	d15,[a15]18
-.L158:
+.L162:
 	jlt.u	d15,#10,.L13
-.L159:
+.L163:
 	call	ENCODER_RevSample
-.L160:
+.L164:
 	movh.a	a15,#@his(icarStr)
 	lea	a15,[a15]@los(icarStr)
-.L161:
+.L165:
 	ld.bu	d15,[a15]23
-.L162:
+.L166:
 	jne	d15,#0,.L14
-.L163:
+.L167:
 	movh.a	a15,#@his(usbStr)
 	lea	a15,[a15]@los(usbStr)
-.L164:
+.L168:
 	ld.bu	d15,[a15]70
 	jeq	d15,#0,.L15
 .L14:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
-.L165:
+.L169:
 	ld.bu	d15,[a15]16
-.L166:
+.L170:
 	jeq	d15,#0,.L16
-.L167:
+.L171:
 	movh.a	a15,#@his(icarStr)
 	lea	a15,[a15]@los(icarStr)
-.L168:
+.L172:
 	ld.w	d4,[a15]6
 	call	MOTOR_ControlLoop
-.L169:
+.L173:
 	j	.L17
 .L16:
 	movh.a	a15,#@his(icarStr)
 	lea	a15,[a15]@los(icarStr)
-.L170:
-	ld.w	d15,[a15]6
-.L171:
-	movh	d0,#17096
-.L172:
-	cmp.f	d15,d15,d0
-	extr.u	d15,d15,#2,#1
-.L173:
-	jeq	d15,#0,.L18
 .L174:
-	movh.a	a15,#@his(icarStr)
-	lea	a15,[a15]@los(icarStr)
-.L175:
+	ld.w	d0,[a15]6
+.L73:
 	movh	d15,#17096
+.L175:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#2,#1
 .L176:
-	st.w	[a15]6,d15
+	jeq	d15,#0,.L18
 .L177:
+	movh	d0,#17096
+.L178:
 	j	.L19
 .L18:
-	movh.a	a15,#@his(icarStr)
-	lea	a15,[a15]@los(icarStr)
-.L178:
-	ld.w	d15,[a15]6
-.L179:
-	movh	d0,#49864
-.L180:
-	cmp.f	d15,d15,d0
-	extr.u	d15,d15,#0,#1
-.L181:
-	jeq	d15,#0,.L20
-.L182:
-	movh.a	a15,#@his(icarStr)
-	lea	a15,[a15]@los(icarStr)
-.L183:
 	movh	d15,#49864
-.L184:
-	st.w	[a15]6,d15
+.L179:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L180:
+	jeq	d15,#0,.L20
+.L181:
+	movh	d0,#49864
 .L20:
 .L19:
-	movh.a	a15,#@his(icarStr)
-	lea	a15,[a15]@los(icarStr)
-.L185:
-	ld.w	d15,[a15]6
-.L186:
-	mov	d0,#0
-.L187:
-	mul.f	d15,d15,d0
-.L188:
+	movh	d15,#16672
+.L182:
+	mul.f	d15,d0,d15
+.L183:
 	ftoiz	d4,d15
-.L72:
+.L74:
 	call	MOTOR_SetPwmValue
 .L17:
 	j	.L21
@@ -366,9 +350,9 @@ MOTOR_Timer:	.type	func
 .L21:
 	movh.a	a15,#@his(motorStr)
 	lea	a15,[a15]@los(motorStr)
-.L189:
+.L184:
 	mov	d15,#0
-.L190:
+.L185:
 	st.h	[a15]18,d15
 .L13:
 	ret
@@ -24391,9 +24375,9 @@ motorStr:	.type	object
 	.byte	'SpiIf_Status',0,49,71,3
 	.word	161601
 	.byte	3
-	.word	.L73-.L31
+	.word	.L75-.L31
 	.byte	3
-	.word	.L73-.L31
+	.word	.L75-.L31
 	.byte	33
 	.word	161601
 	.byte	1,1,34
@@ -24419,7 +24403,7 @@ motorStr:	.type	object
 	.byte	'SpiIf_GetStatus',0,49,136,1,24
 	.word	161769
 	.byte	3
-	.word	.L74-.L31
+	.word	.L76-.L31
 	.byte	35,1,1,34
 	.word	161799
 	.byte	0,3
@@ -24443,7 +24427,7 @@ motorStr:	.type	object
 	.byte	'onError',0
 	.word	161818
 	.byte	4,2,35,16,0
-.L74:
+.L76:
 	.byte	12
 	.byte	'SpiIf_',0,49,150,1,8,40,15
 	.byte	'driver',0
@@ -24508,7 +24492,7 @@ motorStr:	.type	object
 	.byte	31
 	.byte	'TxRxHandler',0,49,209,1,16
 	.word	162297
-.L73:
+.L75:
 	.byte	12
 	.byte	'SpiIf_Ch_',0,49,211,1,8,48,15
 	.byte	'driver',0
@@ -24732,7 +24716,7 @@ motorStr:	.type	object
 	.byte	'IfxQspi_SuspendMode',0,15,171,2,3
 	.word	164657
 	.byte	3
-	.word	.L75-.L31
+	.word	.L77-.L31
 	.byte	35,1,1,34
 	.word	164774
 	.byte	0,3
@@ -24772,7 +24756,7 @@ motorStr:	.type	object
 	.byte	'expectTimeoutError',0,1
 	.word	780
 	.byte	1,0,2,35,0,0
-.L75:
+.L77:
 	.byte	12
 	.byte	'IfxQspi_SpiMaster_Channel_s',0,50,144,5,8,84,15
 	.byte	'base',0
@@ -43893,7 +43877,7 @@ motorStr:	.type	object
 	.byte	4,2,35,12,0,31
 	.byte	'AppInfo',0,75,71,3
 	.word	324164
-.L65:
+.L66:
 	.byte	22,76,18,9,20,15
 	.byte	'ReductionRatio',0
 	.word	232
@@ -43933,11 +43917,11 @@ motorStr:	.type	object
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L33:
-	.word	.L77-.L76
-.L76:
-	.half	3
 	.word	.L79-.L78
 .L78:
+	.half	3
+	.word	.L81-.L80
+.L80:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'D:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg',0
 	.byte	'D:\\\\Code\\\\Infineon\\\\TC264\\\\SmartCar\\\\Libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std',0
@@ -44070,8 +44054,8 @@ motorStr:	.type	object
 	.byte	'IfxAsclin_Asc.h',0,21,0,0
 	.byte	'include.h',0,10,0,0
 	.byte	'..\\src\\User\\motor.h',0,0,0,0,0
+.L81:
 .L79:
-.L77:
 	.sdecl	'.debug_info',debug,cluster('MOTOR_Init')
 	.sect	'.debug_info'
 .L34:
@@ -44099,66 +44083,66 @@ motorStr:	.type	object
 	.sdecl	'.debug_line',debug,cluster('MOTOR_Init')
 	.sect	'.debug_line'
 .L36:
-	.word	.L81-.L80
-.L80:
-	.half	3
 	.word	.L83-.L82
 .L82:
+	.half	3
+	.word	.L85-.L84
+.L84:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../src/User/Motor.c',0,0,0,0,0
-.L83:
+.L85:
 	.byte	5,6,7,0,5,2
 	.word	.L23
 	.byte	3,26,1,5,20,9
-	.half	.L66-.L23
+	.half	.L67-.L23
 	.byte	3,62,1,5,26,9
-	.half	.L84-.L66
+	.half	.L86-.L67
 	.byte	1,5,42,9
-	.half	.L85-.L84
-	.byte	1,5,25,9
-	.half	.L86-.L85
-	.byte	3,2,1,5,58,9
 	.half	.L87-.L86
-	.byte	1,5,61,9
+	.byte	1,5,25,9
 	.half	.L88-.L87
-	.byte	1,5,23,9
+	.byte	3,2,1,5,58,9
 	.half	.L89-.L88
-	.byte	3,2,1,5,5,9
+	.byte	1,5,61,9
 	.half	.L90-.L89
-	.byte	3,3,1,5,28,9
+	.byte	1,5,23,9
 	.half	.L91-.L90
-	.byte	1,5,26,9
+	.byte	3,2,1,5,5,9
 	.half	.L92-.L91
-	.byte	1,5,5,9
+	.byte	3,3,1,5,28,9
 	.half	.L93-.L92
-	.byte	3,1,1,5,31,9
+	.byte	1,5,26,9
 	.half	.L94-.L93
-	.byte	1,5,29,9
+	.byte	1,5,5,9
 	.half	.L95-.L94
-	.byte	1,5,5,9
+	.byte	3,1,1,5,31,9
 	.half	.L96-.L95
-	.byte	3,1,1,5,29,9
+	.byte	1,5,29,9
 	.half	.L97-.L96
-	.byte	1,5,27,9
+	.byte	1,5,5,9
 	.half	.L98-.L97
-	.byte	1,5,5,9
+	.byte	3,1,1,5,29,9
 	.half	.L99-.L98
-	.byte	3,1,1,5,30,9
+	.byte	1,5,27,9
 	.half	.L100-.L99
-	.byte	1,5,28,9
-	.half	.L101-.L100
 	.byte	1,5,5,9
+	.half	.L101-.L100
+	.byte	3,1,1,5,30,9
 	.half	.L102-.L101
-	.byte	3,1,1,5,26,9
+	.byte	1,5,28,9
 	.half	.L103-.L102
-	.byte	1,5,24,9
+	.byte	1,5,5,9
 	.half	.L104-.L103
-	.byte	1,5,1,9
+	.byte	3,1,1,5,26,9
 	.half	.L105-.L104
+	.byte	1,5,24,9
+	.half	.L106-.L105
+	.byte	1,5,1,9
+	.half	.L107-.L106
 	.byte	3,1,1,7,9
-	.half	.L38-.L105
+	.half	.L38-.L107
 	.byte	0,1,1
-.L81:
+.L83:
 	.sdecl	'.debug_ranges',debug,cluster('MOTOR_Init')
 	.sect	'.debug_ranges'
 .L37:
@@ -44193,62 +44177,66 @@ motorStr:	.type	object
 	.sdecl	'.debug_line',debug,cluster('MOTOR_SetPwmValue')
 	.sect	'.debug_line'
 .L41:
-	.word	.L107-.L106
-.L106:
-	.half	3
 	.word	.L109-.L108
 .L108:
+	.half	3
+	.word	.L111-.L110
+.L110:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../src/User/Motor.c',0,0,0,0,0
-.L109:
+.L111:
 	.byte	5,6,7,0,5,2
 	.word	.L25
 	.byte	3,238,0,1,5,11,9
-	.half	.L67-.L25
+	.half	.L68-.L25
 	.byte	3,2,1,5,9,9
-	.half	.L110-.L67
-	.byte	1,5,5,9
-	.half	.L69-.L110
-	.byte	3,1,1,5,19,7,9
-	.half	.L111-.L69
-	.byte	3,3,1,5,26,9
-	.half	.L68-.L111
-	.byte	1,5,9,9
 	.half	.L112-.L68
-	.byte	3,1,1,5,17,7,9
-	.half	.L113-.L112
-	.byte	3,1,1,5,26,9
-	.half	.L4-.L113
-	.byte	3,3,1,5,62,9
-	.half	.L114-.L4
-	.byte	1,5,66,9
+	.byte	1,5,5,9
+	.half	.L70-.L112
+	.byte	3,1,1,5,19,7,9
+	.half	.L113-.L70
+	.byte	3,3,1,5,26,9
+	.half	.L69-.L113
+	.byte	1,5,16,9
+	.half	.L114-.L69
+	.byte	3,1,1,5,9,9
 	.half	.L115-.L114
-	.byte	1,5,72,9
+	.byte	1,5,17,7,9
 	.half	.L116-.L115
-	.byte	1,5,10,9
-	.half	.L3-.L116
-	.byte	3,2,1,5,19,7,9
-	.half	.L117-.L3
-	.byte	3,2,1,5,26,9
-	.half	.L70-.L117
-	.byte	1,5,9,9
-	.half	.L118-.L70
-	.byte	3,1,1,5,16,7,9
-	.half	.L119-.L118
-	.byte	3,1,1,5,15,9
-	.half	.L8-.L119
-	.byte	3,2,1,5,26,9
-	.half	.L120-.L8
+	.byte	3,1,1,5,26,9
+	.half	.L4-.L116
 	.byte	3,3,1,5,62,9
-	.half	.L121-.L120
+	.half	.L117-.L4
 	.byte	1,5,66,9
+	.half	.L118-.L117
+	.byte	1,5,72,9
+	.half	.L119-.L118
+	.byte	1,5,10,9
+	.half	.L3-.L119
+	.byte	3,2,1,5,19,7,9
+	.half	.L120-.L3
+	.byte	3,2,1,5,26,9
+	.half	.L71-.L120
+	.byte	1,5,16,9
+	.half	.L121-.L71
+	.byte	3,1,1,5,9,9
 	.half	.L122-.L121
+	.byte	1,5,16,7,9
+	.half	.L123-.L122
+	.byte	3,1,1,5,15,9
+	.half	.L8-.L123
+	.byte	3,2,1,5,26,9
+	.half	.L124-.L8
+	.byte	3,3,1,5,62,9
+	.half	.L125-.L124
+	.byte	1,5,66,9
+	.half	.L126-.L125
 	.byte	1,5,1,9
-	.half	.L6-.L122
+	.half	.L6-.L126
 	.byte	3,2,1,7,9
 	.half	.L43-.L6
 	.byte	0,1,1
-.L107:
+.L109:
 	.sdecl	'.debug_ranges',debug,cluster('MOTOR_SetPwmValue')
 	.sect	'.debug_ranges'
 .L42:
@@ -44283,72 +44271,72 @@ motorStr:	.type	object
 	.sdecl	'.debug_line',debug,cluster('MOTOR_ControlLoop')
 	.sect	'.debug_line'
 .L46:
-	.word	.L124-.L123
-.L123:
+	.word	.L128-.L127
+.L127:
 	.half	3
-	.word	.L126-.L125
-.L125:
+	.word	.L130-.L129
+.L129:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../src/User/Motor.c',0,0,0,0,0
-.L126:
+.L130:
 	.byte	5,16,7,0,5,2
 	.word	.L27
 	.byte	3,146,1,1,5,14,9
-	.half	.L127-.L27
+	.half	.L131-.L27
 	.byte	1,5,5,9
-	.half	.L128-.L127
-	.byte	1,5,17,7,9
-	.half	.L129-.L128
-	.byte	3,1,1,5,32,9
-	.half	.L130-.L129
-	.byte	1,5,21,9
-	.half	.L10-.L130
-	.byte	3,1,1,5,19,9
-	.half	.L131-.L10
-	.byte	1,5,10,9
 	.half	.L132-.L131
 	.byte	1,5,17,7,9
 	.half	.L133-.L132
-	.byte	3,1,1,5,5,9
-	.half	.L11-.L133
-	.byte	3,2,1,5,35,9
-	.half	.L134-.L11
-	.byte	1,5,34,9
-	.half	.L135-.L134
-	.byte	1,5,57,9
+	.byte	3,1,1,5,32,9
+	.half	.L134-.L133
+	.byte	1,5,21,9
+	.half	.L10-.L134
+	.byte	3,1,1,5,19,9
+	.half	.L135-.L10
+	.byte	1,5,10,9
 	.half	.L136-.L135
-	.byte	1,5,65,9
+	.byte	1,5,17,7,9
 	.half	.L137-.L136
-	.byte	1,5,55,9
-	.half	.L138-.L137
-	.byte	1,5,82,9
+	.byte	3,1,1,5,5,9
+	.half	.L11-.L137
+	.byte	3,2,1,5,35,9
+	.half	.L138-.L11
+	.byte	1,5,34,9
 	.half	.L139-.L138
-	.byte	1,5,80,9
+	.byte	1,5,57,9
 	.half	.L140-.L139
-	.byte	1,5,87,9
+	.byte	1,5,65,9
 	.half	.L141-.L140
-	.byte	1,5,95,9
+	.byte	1,5,55,9
 	.half	.L142-.L141
-	.byte	1,5,85,9
+	.byte	1,5,82,9
 	.half	.L143-.L142
-	.byte	1,5,111,9
+	.byte	1,5,80,9
 	.half	.L144-.L143
-	.byte	1,5,119,9
+	.byte	1,5,87,9
 	.half	.L145-.L144
-	.byte	1,5,109,9
+	.byte	1,5,95,9
 	.half	.L146-.L145
-	.byte	1,5,19,9
+	.byte	1,5,85,9
 	.half	.L147-.L146
-	.byte	1,5,42,9
+	.byte	1,5,111,9
 	.half	.L148-.L147
+	.byte	1,5,119,9
+	.half	.L149-.L148
+	.byte	1,5,109,9
+	.half	.L150-.L149
+	.byte	1,5,19,9
+	.half	.L151-.L150
+	.byte	1,5,42,9
+	.half	.L152-.L151
 	.byte	3,3,1,5,40,9
-	.half	.L71-.L148
+	.half	.L72-.L152
 	.byte	1,5,1,9
-	.half	.L149-.L71
+	.half	.L153-.L72
 	.byte	3,1,1,7,9
-	.half	.L48-.L149
+	.half	.L48-.L153
 	.byte	0,1,1
-.L124:
+.L128:
 	.sdecl	'.debug_ranges',debug,cluster('MOTOR_ControlLoop')
 	.sect	'.debug_ranges'
 .L47:
@@ -44356,7 +44344,7 @@ motorStr:	.type	object
 	.sdecl	'.debug_info',debug,cluster('MOTOR_Timer')
 	.sect	'.debug_info'
 .L49:
-	.word	254
+	.word	281
 	.half	3
 	.word	.L50
 	.byte	4,1
@@ -44372,11 +44360,16 @@ motorStr:	.type	object
 	.byte	4
 	.word	.L29,.L63
 	.byte	4
+	.word	.L16,.L17
+	.byte	5
+	.byte	'spd',0,1,181,1,23
+	.word	.L61,.L64
+	.byte	4
 	.word	.L19,.L17
 	.byte	5
-	.byte	'speedRate',0,1,185,1,28
-	.word	.L58,.L64
-	.byte	0,0,0,0
+	.byte	'speedRate',0,1,184,1,28
+	.word	.L58,.L65
+	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('MOTOR_Timer')
 	.sect	'.debug_abbrev'
 .L50:
@@ -44385,112 +44378,96 @@ motorStr:	.type	object
 	.sdecl	'.debug_line',debug,cluster('MOTOR_Timer')
 	.sect	'.debug_line'
 .L51:
-	.word	.L151-.L150
-.L150:
+	.word	.L155-.L154
+.L154:
 	.half	3
-	.word	.L153-.L152
-.L152:
+	.word	.L157-.L156
+.L156:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../src/User/Motor.c',0,0,0,0,0
-.L153:
+.L157:
 	.byte	5,5,7,0,5,2
 	.word	.L29
 	.byte	3,167,1,1,5,13,9
-	.half	.L154-.L29
+	.half	.L158-.L29
 	.byte	1,5,21,9
-	.half	.L155-.L154
-	.byte	1,5,8,9
-	.half	.L156-.L155
-	.byte	3,1,1,5,16,9
-	.half	.L157-.L156
-	.byte	1,5,5,9
-	.half	.L158-.L157
-	.byte	1,5,26,7,9
 	.half	.L159-.L158
-	.byte	3,2,1,5,12,9
+	.byte	1,5,8,9
 	.half	.L160-.L159
-	.byte	3,2,1,5,19,9
+	.byte	3,1,1,5,16,9
 	.half	.L161-.L160
-	.byte	1,5,12,9
+	.byte	1,5,5,9
 	.half	.L162-.L161
-	.byte	1,5,36,7,9
+	.byte	1,5,26,7,9
 	.half	.L163-.L162
-	.byte	1,5,42,9
+	.byte	3,2,1,5,12,9
 	.half	.L164-.L163
-	.byte	1,5,16,9
-	.half	.L14-.L164
-	.byte	3,2,1,5,24,9
-	.half	.L165-.L14
-	.byte	1,5,13,9
+	.byte	3,2,1,5,19,9
+	.half	.L165-.L164
+	.byte	1,5,12,9
 	.half	.L166-.L165
-	.byte	1,5,35,7,9
+	.byte	1,5,36,7,9
 	.half	.L167-.L166
-	.byte	3,2,1,5,42,9
-	.half	.L168-.L167
-	.byte	1,5,52,9
-	.half	.L169-.L168
-	.byte	1,5,20,9
-	.half	.L16-.L169
-	.byte	3,4,1,5,27,9
-	.half	.L170-.L16
-	.byte	1,5,39,9
-	.half	.L171-.L170
-	.byte	1,5,37,9
-	.half	.L172-.L171
-	.byte	1,5,17,9
-	.half	.L173-.L172
-	.byte	1,5,21,7,9
-	.half	.L174-.L173
-	.byte	3,1,1,5,40,9
-	.half	.L175-.L174
-	.byte	1,5,38,9
-	.half	.L176-.L175
-	.byte	1,5,43,9
-	.half	.L177-.L176
-	.byte	1,5,25,9
-	.half	.L18-.L177
-	.byte	3,1,1,5,32,9
-	.half	.L178-.L18
-	.byte	1,5,44,9
-	.half	.L179-.L178
 	.byte	1,5,42,9
-	.half	.L180-.L179
+	.half	.L168-.L167
+	.byte	1,5,16,9
+	.half	.L14-.L168
+	.byte	3,2,1,5,24,9
+	.half	.L169-.L14
+	.byte	1,5,13,9
+	.half	.L170-.L169
+	.byte	1,5,35,7,9
+	.half	.L171-.L170
+	.byte	3,2,1,5,42,9
+	.half	.L172-.L171
+	.byte	1,5,52,9
+	.half	.L173-.L172
+	.byte	1,5,29,9
+	.half	.L16-.L173
+	.byte	3,4,1,5,36,9
+	.half	.L174-.L16
+	.byte	1,5,26,9
+	.half	.L73-.L174
+	.byte	3,1,1,5,24,9
+	.half	.L175-.L73
+	.byte	1,5,17,9
+	.half	.L176-.L175
+	.byte	1,5,39,7,9
+	.half	.L177-.L176
+	.byte	1,5,42,9
+	.half	.L178-.L177
+	.byte	1,5,31,9
+	.half	.L18-.L178
+	.byte	3,1,1,5,29,9
+	.half	.L179-.L18
 	.byte	1,5,22,9
+	.half	.L180-.L179
+	.byte	1,5,43,7,9
 	.half	.L181-.L180
-	.byte	1,5,21,7,9
-	.half	.L182-.L181
-	.byte	3,1,1,5,40,9
-	.half	.L183-.L182
-	.byte	1,5,38,9
-	.half	.L184-.L183
-	.byte	1,5,60,9
-	.half	.L19-.L184
-	.byte	3,1,1,5,67,9
-	.half	.L185-.L19
 	.byte	1,5,53,9
-	.half	.L186-.L185
-	.byte	1,5,67,9
-	.half	.L187-.L186
-	.byte	1,5,59,9
-	.half	.L188-.L187
+	.half	.L19-.L181
+	.byte	3,1,1,5,62,9
+	.half	.L182-.L19
+	.byte	1,5,60,9
+	.half	.L183-.L182
 	.byte	1,5,35,9
-	.half	.L72-.L188
+	.half	.L74-.L183
 	.byte	3,2,1,5,13,9
-	.half	.L17-.L72
-	.byte	3,120,1,5,31,9
+	.half	.L17-.L74
+	.byte	3,121,1,5,31,9
 	.half	.L15-.L17
-	.byte	3,13,1,5,9,9
+	.byte	3,12,1,5,9,9
 	.half	.L21-.L15
 	.byte	3,3,1,5,28,9
-	.half	.L189-.L21
+	.half	.L184-.L21
 	.byte	1,5,26,9
-	.half	.L190-.L189
+	.half	.L185-.L184
 	.byte	1,5,1,9
-	.half	.L13-.L190
+	.half	.L13-.L185
 	.byte	3,2,1,7,9
 	.half	.L53-.L13
 	.byte	0,1,1
-.L151:
+.L155:
 	.sdecl	'.debug_ranges',debug,cluster('MOTOR_Timer')
 	.sect	'.debug_ranges'
 .L52:
@@ -44508,7 +44485,7 @@ motorStr:	.type	object
 	.word	.L30
 	.byte	3
 	.byte	'motorStr',0,39,17,13
-	.word	.L65
+	.word	.L66
 	.byte	1,5,3
 	.word	motorStr
 	.byte	0
@@ -44525,17 +44502,17 @@ motorStr:	.type	object
 	.byte	138,0
 	.word	0,0
 .L62:
-	.word	-1,.L27,0,.L71-.L27
+	.word	-1,.L27,0,.L72-.L27
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('MOTOR_Init')
 	.sect	'.debug_loc'
 .L22:
-	.word	-1,.L23,0,.L66-.L23
+	.word	-1,.L23,0,.L67-.L23
 	.half	2
 	.byte	138,0
-	.word	.L66-.L23,.L56-.L23
+	.word	.L67-.L23,.L56-.L23
 	.half	2
 	.byte	138,24
 	.word	.L56-.L23,.L56-.L23
@@ -44545,10 +44522,10 @@ motorStr:	.type	object
 	.sdecl	'.debug_loc',debug,cluster('MOTOR_SetPwmValue')
 	.sect	'.debug_loc'
 .L24:
-	.word	-1,.L25,0,.L67-.L25
+	.word	-1,.L25,0,.L68-.L25
 	.half	2
 	.byte	138,0
-	.word	.L67-.L25,.L57-.L25
+	.word	.L68-.L25,.L57-.L25
 	.half	2
 	.byte	138,24
 	.word	.L57-.L25,.L57-.L25
@@ -44556,13 +44533,13 @@ motorStr:	.type	object
 	.byte	138,0
 	.word	0,0
 .L59:
-	.word	-1,.L25,0,.L68-.L25
+	.word	-1,.L25,0,.L69-.L25
 	.half	1
 	.byte	84
-	.word	.L69-.L25,.L57-.L25
+	.word	.L70-.L25,.L57-.L25
 	.half	1
 	.byte	95
-	.word	.L3-.L25,.L70-.L25
+	.word	.L3-.L25,.L71-.L25
 	.half	1
 	.byte	84
 	.word	0,0
@@ -44574,13 +44551,18 @@ motorStr:	.type	object
 	.byte	138,0
 	.word	0,0
 .L64:
-	.word	-1,.L29,.L72-.L29,.L17-.L29
+	.word	-1,.L29,.L73-.L29,.L17-.L29
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L65:
+	.word	-1,.L29,.L74-.L29,.L17-.L29
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L191:
+.L186:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -44588,27 +44570,27 @@ motorStr:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('MOTOR_Init')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L191,.L23,.L56-.L23
+	.word	.L186,.L23,.L56-.L23
 	.byte	4
-	.word	(.L66-.L23)/2
+	.word	(.L67-.L23)/2
 	.byte	19,24,22,26,3,19,138,24,4
-	.word	(.L56-.L66)/2
+	.word	(.L56-.L67)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('MOTOR_SetPwmValue')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L191,.L25,.L57-.L25
+	.word	.L186,.L25,.L57-.L25
 	.byte	4
-	.word	(.L67-.L25)/2
+	.word	(.L68-.L25)/2
 	.byte	19,24,22,26,3,19,138,24,4
-	.word	(.L57-.L67)/2
+	.word	(.L57-.L68)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('MOTOR_ControlLoop')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L191,.L27,.L60-.L27
+	.word	.L186,.L27,.L60-.L27
 	.sdecl	'.debug_frame',debug,cluster('MOTOR_Timer')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L191,.L29,.L63-.L29
+	.word	.L186,.L29,.L63-.L29
 	; Module end

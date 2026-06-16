@@ -32,6 +32,7 @@
 "src/User/Gpio.o"
 "src/User/Icar.o"
 "src/User/Motor.o"
+"src/User/PWM.o"
 "src/User/Pid.o"
 "src/User/Rgb.o"
 "src/User/Servo.o"
