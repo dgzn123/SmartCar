@@ -1,19 +1,19 @@
 /*LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
-¡¾Æ½    Ì¨¡¿±±¾©ÁúÇñÖÇÄÜ¿Æ¼¼TC264DAºËÐÄ°å
-¡¾±à    Ð´¡¿chiusir
-¡¾E-mail¡¿chiusir@163.com
-¡¾Èí¼þ°æ±¾¡¿V1.2 °æÈ¨ËùÓÐ£¬µ¥Î»Ê¹ÓÃÇëÏÈÁªÏµÊÚÈ¨
-¡¾×îºó¸üÐÂ¡¿2023Äê11ÔÂ10ÈÕ
-¡¾Ïà¹ØÐÅÏ¢²Î¿¼ÏÂÁÐµØÖ·¡¿
-¡¾Íø    Õ¾¡¿http://www.lqist.cn
-¡¾ÌÔ±¦µêÆÌ¡¿http://longqiu.taobao.com
+ï¿½ï¿½Æ½    Ì¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¿Æ¼ï¿½TC264DAï¿½ï¿½ï¿½Ä°ï¿½
+ï¿½ï¿½ï¿½ï¿½    Ð´ï¿½ï¿½chiusir
+ï¿½ï¿½E-mailï¿½ï¿½chiusir@163.com
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½V1.2 ï¿½ï¿½È¨ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½Î»Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½È¨
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¡ï¿½2023ï¿½ï¿½11ï¿½ï¿½10ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Î¿ï¿½ï¿½ï¿½ï¿½Ðµï¿½Ö·ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½    Õ¾ï¿½ï¿½http://www.lqist.cn
+ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½Ì¡ï¿½http://longqiu.taobao.com
 ------------------------------------------------
-¡¾dev.env.¡¿AURIX Development Studio1.6°æ±¾
-¡¾Target ¡¿ TC264DA/TC264D
-¡¾Crystal¡¿ 20.000Mhz
-¡¾SYS PLL¡¿ 200MHz
+ï¿½ï¿½dev.env.ï¿½ï¿½AURIX Development Studio1.6ï¿½æ±¾
+ï¿½ï¿½Target ï¿½ï¿½ TC264DA/TC264D
+ï¿½ï¿½Crystalï¿½ï¿½ 20.000Mhz
+ï¿½ï¿½SYS PLLï¿½ï¿½ 200MHz
 ________________________________________________________________
-»ùÓÚiLLD_1_0_1_11_0µ×²ã³ÌÐò,
+ï¿½ï¿½ï¿½ï¿½iLLD_1_0_1_11_0ï¿½×²ï¿½ï¿½ï¿½ï¿½,
 QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ*/
 
 #include <IfxCpu.h>
@@ -44,7 +44,7 @@ int core0_main (void)
 	IfxCpu_releaseMutex(&mutexCpu0InitIsOk);
 	mutexCpu0TFTIsOk=0;
 
-	// ---- ÍâÉè³õÊ¼»¯ ----
+	// ---- ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ ----
 	UART_InitConfig(UART0_RX_P14_1, UART0_TX_P14_0, 115200);
 	PIN_InitConfig(P15_8, PIN_MODE_INPUT, 0);
 	PIN_Exti(P15_8, PIN_IRQ_MODE_RISING_FALLING);
@@ -57,8 +57,8 @@ int core0_main (void)
 	PID_Init();
 	MOTOR_Init();
 	SERVO_Init();
-	USB_Edgeboard_Init();
-	RGB_Init();
+		USB_Edgeboard_Init();
+		IMU_Init();
 
 	Delay_Ms(100);
 
@@ -67,12 +67,12 @@ int core0_main (void)
 	PIN_InitConfig(P21_4, PIN_MODE_OUTPUT, 0);
 	PIN_InitConfig(P21_5, PIN_MODE_OUTPUT, 0);
 
-	// ÏµÍ³1ms¶¨Ê±Æ÷£ºÊ¹ÓÃCCU60
-	// ÊÖ¶¯Ê¹ÄÜCCU60Ä£¿é£¨ÓÃSafety ENDINIT£¬ÒòÎªCLC¼Ä´æÆ÷ÊÜSafety ENDINIT±£»¤£©
+	// ÏµÍ³1msï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½CCU60
+	// ï¿½Ö¶ï¿½Ê¹ï¿½ï¿½CCU60Ä£ï¿½é£¨ï¿½ï¿½Safety ENDINITï¿½ï¿½ï¿½ï¿½ÎªCLCï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½Safety ENDINITï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	{
 		uint16 safetyPw = IfxScuWdt_getSafetyWatchdogPassword();
 		IfxScuWdt_clearSafetyEndinit(safetyPw);
-		MODULE_CCU60.CLC.B.DISR = 0U;  // ÇëÇóÊ¹ÄÜÄ£¿éÊ±ÖÓ
+		MODULE_CCU60.CLC.B.DISR = 0U;  // ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½Ä£ï¿½ï¿½Ê±ï¿½ï¿½
 		IfxScuWdt_setSafetyEndinit(safetyPw);
 	}
 	CCU6_InitConfig(CCU60, CCU6_Channel0, 1000);
@@ -84,5 +84,6 @@ int core0_main (void)
 		GPIO_Handle();
 		ICAR_Handle();
 		USB_Edgeboard_Handle();
+		IMU_Handle();
 	}
 }
