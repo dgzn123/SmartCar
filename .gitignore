@@ -1,0 +1,13 @@
+# TASKING 编译输出
+TriCore Debug (TASKING)/
+TriCore Release (TASKING)/
+
+# IDE / 编辑器
+.vscode/
+.settings/
+*.launch
+.codegraph/
+
+# 其他
+*.bak
+*.tmp
