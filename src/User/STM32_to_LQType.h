@@ -25,6 +25,7 @@
 #include "Servo.h"
 #include "Rgb.h"
 #include "Usb.h"
+#include "Imu.h"
 
 
 //#include "stdbool.h"     //ºÍPlatform_Types.h³åÍ»£¬½ûÓÃ

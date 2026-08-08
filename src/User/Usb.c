@@ -24,6 +24,8 @@ void USB_Edgeboard_Init(void)
     //UART_InitConfig(UART0_RX_P14_1,UART0_TX_P14_0, 115200);
     //USB数据初始化
     usbStr.counter = 0;
+    usbStr.counterDrop = 0;
+    usbStr.counterSend = 0;
     usbStr.receiveFinished = FALSE;
     usbStr.receiveStart = FALSE;
     usbStr.receiveIndex = 0;
@@ -160,17 +162,25 @@ void USB_Edgeboard_Timr(void)
     if(usbStr.connected)//USB通信掉线检测
     {
         usbStr.counterDrop++;
-        if(usbStr.counterDrop >3000)//3s
+        if(usbStr.counterDrop > 3000)//3s无有效帧则断开
         {
             usbStr.connected = FALSE;
             usbStr.inspectorEnable = FALSE;
             icarStr.selfcheckEnable = FALSE;
+            usbStr.counterDrop = 0;
+            usbStr.counterSend = 0;
         }
 
         if(usbStr.inspectorEnable)
         {
             usbStr.counterSend++;
         }
+    }
+    else
+    {
+        // 未连接时保持计数器清零，防止上电时残留值导致误判
+        usbStr.counterDrop = 0;
+        usbStr.counterSend = 0;
     }
 }
 
