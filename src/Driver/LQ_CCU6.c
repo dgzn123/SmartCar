@@ -78,6 +78,7 @@ void CCU60_CH0_IRQHandler (void)
 
                   ICAR_Timer();           //智能车综合处理线程计数器
                   USB_Edgeboard_Timr();   //USB通信线程
+                  IMU_Timer();            //IMU数据采集线程
 
 }
 

@@ -97,7 +97,7 @@ void MOTOR_Init(void)
     motorStr.ReductionRatio = 2.7f;							//电机减速比
     motorStr.EncoderValue = 0;
     motorStr.DiameterWheel = 0.064f;//68cm					//轮子直径:m
-    motorStr.CloseLoop = FALSE;                              //默认闭环模式
+    motorStr.CloseLoop = TRUE;                              //默认闭环模式
 }
 
 
