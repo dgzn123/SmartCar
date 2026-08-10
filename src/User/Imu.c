@@ -1,6 +1,7 @@
 #include "Imu.h"
 #include "LQ_SOFTI2C.h"
 
+#if 0
 int LQ_I2C_Read(unsigned char addr, unsigned char reg, unsigned int len, unsigned char *buf);
 
 ImuStruct imuStr;
@@ -61,3 +62,4 @@ void IMU_Handle(void)
             USB_Edgeboard_TransmitByte(buff[i]);
     }
 }
+#endif

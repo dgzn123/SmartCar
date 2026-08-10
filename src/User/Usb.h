@@ -57,7 +57,6 @@ void USB_Edgeboard_TransmitKey(uint16_t time);
 
 //ÖÇÄÜ³µ×Ô¼ì
 void USB_Edgeboard_ServoThreshold(uint8_t chanel);
-void USB_Edgeboard_KeyPress(uint16_t time);
 void USB_Edgeboard_BatteryInfo(void);
 void USB_Edgeboard_CarSpeed(void);
 void USB_Edgeboard_Selfcheck(uint8_t step);

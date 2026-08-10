@@ -1,28 +1,28 @@
-#ifndef __PWM_H__
-#define __PWM_H__
+#ifndef __MOTOR_H__
+#define __MOTOR_H__
 
 /*-----------------------------------------  I N C L U D E S  -----------------------------------------*/
 #include "include.h"
 
 /*---------------------------------------  D E F I N I T I O N  ---------------------------------------*/
 
-#define  MOTOR_PWM_MAX   		    1000//400		//OCR=95%,ï¿½ï¿½Ö¹ï¿½ï¿½Õ¼ï¿½Õ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½MOSï¿½ï¿½
+#define  MOTOR_PWM_MAX   		    1000//400		//OCR=95%,·ÀÖ¹Õ¼¿Õ±È¹ý´óÉÕ»ÙMOS¹Ü
 #define  MOTOR_PWM_MIN			    -1000 //-400		//OCR=95%
-#define  MOTOR_SPEED_MAX		    2.2f	 	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½(m/s) (0.017,8.04)
-//#define  PI					        3.141593f   //ï¿½ï¿½
-#define  MOTOR_CONTROL_CYCLE	    0.01f    	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½10ms
+#define  MOTOR_SPEED_MAX		    2.2f	 	//µç»ú×î´ó×ªËÙ(m/s) (0.017,8.04)
+//#define  PI					        3.141593f   //¦Ð
+#define  MOTOR_CONTROL_CYCLE	    0.01f    	//ËÙ¶È¿ØÖÆÖÜÆÚT=10ms
 
 /**
-* @brief    ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+* @brief    µç»ú²ÎÊý
 **/
 typedef struct 
 {
-	float ReductionRatio ;					    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
-	float EncoderLine ; 						//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½=ï¿½ï¿½Õ¤ï¿½ï¿½16*4
-	float EncoderValue;				    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÊµÊ±ï¿½Ù¶ï¿½
-	float DiameterWheel;						//ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½mm
-	boolean CloseLoop;							    //ï¿½ï¿½ï¿½ï¿½Ä£Ê½
-	uint16_t Counter;							//ï¿½ß³Ì¼ï¿½ï¿½ï¿½ï¿½ï¿½
+	float ReductionRatio ;					    //µç»ú¼õËÙ±È
+	float EncoderLine ; 						//±àÂëÆ÷ÏßÊý=¹âÕ¤Êý16*4
+	float EncoderValue;				    //µç»úÊµÊ±ËÙ¶È
+	float DiameterWheel;						//³µÂÖÖ±¾¶:mm
+	boolean CloseLoop;							    //±Õ»·Ä£Ê½
+	uint16_t Counter;							//Ïß³Ì¼ÆÊýÆ÷
 }MotorStruct;
 
 
@@ -37,5 +37,3 @@ void MOTOR_Timer(void);
 
 //===========================================  End Of File  ===========================================//
 #endif
-
-

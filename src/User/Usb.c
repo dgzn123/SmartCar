@@ -34,7 +34,6 @@ void USB_Edgeboard_Init(void)
 }
 
 
-
 /*************************************************************************
  *  函数名称：USB_Edgeboard_TransmitByte()
  *  功能说明：USB-Edgeboard发送一个字节数据
@@ -48,11 +47,6 @@ void USB_Edgeboard_TransmitByte(uint8 data)
 {
     UART_PutChar(UART0, data);
 }
-
-
-
-
-
 
 
 /*************************************************************************
@@ -145,8 +139,6 @@ void USART1_IRQHandler(void)
 }
 
 
-
-
 /*************************************************************************
  *  函数名称：USB_Edgeboard_Timr()
  *  功能说明：监测软件线程控制器
@@ -183,10 +175,6 @@ void USB_Edgeboard_Timr(void)
         usbStr.counterSend = 0;
     }
 }
-
-
-
-
 
 
 /*************************************************************************
@@ -317,10 +305,6 @@ void USB_Edgeboard_Handle(void)
 }
 
 
-
-
-
-
 /*************************************************************************
  *  函数名称：USB_Edgeboard_TransmitKey()
  *  功能说明：USB发送按键信号
@@ -354,14 +338,7 @@ void USB_Edgeboard_TransmitKey(uint16_t time)
 }
 
 
-
-
-
-
 //----------------------------------------------[UNIT-智能汽车自检软件通信内容]----------------------------------------------------------
-
-
-
 
 
 /*************************************************************************
@@ -421,49 +398,6 @@ void USB_Edgeboard_ServoThreshold(uint8_t chanel)
 }
 
 
-
-
-
-
-/*************************************************************************
- *  函数名称：USB_Edgeboard_KeyPress()
- *  功能说明：发送按键响应信息
- *  参数说明：time: 按下时长/ms
- *  函数返回：无
- *  移植作者：河南理工大学漫画技术研究社（漫研社）小漫
- *  修改时间：2024年4月23日
- *  备    注：NONE
- *************************************************************************/
-void USB_Edgeboard_KeyPress(uint16_t time)
-{
-    if(time<100)
-        return;
-
-    Bint16_Union bint16_Union;
-    uint8_t check = 0;
-    uint8_t buff[8];
-    buff[0] = 0x42; //帧头
-    buff[1] = USB_ADDR_KEYINPUT; //地址
-    buff[2] = 0x06; //帧长
-
-    bint16_Union.U16 = time;
-    buff[3] = bint16_Union.U8_Buff[0];
-    buff[4] = bint16_Union.U8_Buff[1];
-
-    for(int i=0;i<5;i++)
-        check += buff[i];
-
-    buff[5] = check;
-
-    for(int i=0;i<8;i++)
-        USB_Edgeboard_TransmitByte(buff[i]);
-}
-
-
-
-
-
-
 /*************************************************************************
  *  函数名称：USB_Edgeboard_BatteryInfo()
  *  功能说明：发送电池信息
@@ -499,10 +433,6 @@ void USB_Edgeboard_BatteryInfo(void)
 }
 
 
-
-
-
-
 /*************************************************************************
  *  函数名称：USB_Edgeboard_CarSpeed()
  *  功能说明：发送车速信息
@@ -535,10 +465,6 @@ void USB_Edgeboard_CarSpeed(void)
     for(int i=0;i<10;i++)
         USB_Edgeboard_TransmitByte(buff[i]);
 }
-
-
-
-
 
 
 /*************************************************************************

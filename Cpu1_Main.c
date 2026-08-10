@@ -96,16 +96,6 @@ QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ*/
 #include "src/APP/LQ_TFT2.h"
 #include "src/Main/Main.h"
 
-// 定时器 5ms和50ms标志位
-volatile uint8 cpu1Flage5ms = 0;
-volatile uint8 cpu1Flage50ms = 0;
-
-// 期望速度
-volatile sint16 targetSpeed = 10;
-
-// 避障标志位
-volatile uint8 evadibleFlage = 0;
-
 
 int core1_main (void)
 {

@@ -32,23 +32,17 @@
 #include "LQ_GPIO_LED.h"
 #include "LQ_GPT12_ENC.h"
 
-volatile sint16 ECPULSE1 = 0;          // 速度全局变量
-volatile sint16 ECPULSE2 = 0;          // 速度全局变量
-volatile sint32 RAllPulse = 0;          // 速度全局变量
 IFX_INTERRUPT(CCU60_CH0_IRQHandler, CCU60_VECTABNUM, CCU60_CH0_PRIORITY);
 IFX_INTERRUPT(CCU60_CH1_IRQHandler, CCU60_VECTABNUM, CCU60_CH1_PRIORITY);
-IFX_INTERRUPT(CCU61_CH0_IRQHandler, CCU61_VECTABNUM, CCU61_CH0_PRIORITY);
-IFX_INTERRUPT(CCU61_CH1_IRQHandler, CCU61_VECTABNUM, CCU61_CH1_PRIORITY);
 
 /** CCU6中断CPU标号 */
 const uint8 Ccu6IrqVectabNum[2] = {CCU60_VECTABNUM, CCU61_VECTABNUM};
 
 /** CCU6中断优先级 */
-const uint8 Ccu6IrqPriority[4] = {CCU60_CH0_PRIORITY, CCU60_CH1_PRIORITY, CCU61_CH0_PRIORITY, CCU61_CH1_PRIORITY};
+const uint8 Ccu6IrqPriority[2] = {CCU60_CH0_PRIORITY, CCU60_CH1_PRIORITY};
 
 /** CCU6中断服务函数地址 */
-const void *Ccu6IrqFuncPointer[4] = {&CCU60_CH0_IRQHandler, &CCU60_CH1_IRQHandler, &CCU61_CH0_IRQHandler,
-        &CCU61_CH1_IRQHandler};
+const void *Ccu6IrqFuncPointer[2] = {&CCU60_CH0_IRQHandler, &CCU60_CH1_IRQHandler};
 
 /***********************************************************************************************/
 /********************************CCU6外部中断  服务函数******************************************/
@@ -78,7 +72,8 @@ void CCU60_CH0_IRQHandler (void)
 
                   ICAR_Timer();           //智能车综合处理线程计数器
                   USB_Edgeboard_Timr();   //USB通信线程
-                  IMU_Timer();            //IMU数据采集线程
+                  //IMU_Timer();
+                  RGB_Timer();           // RGB status light
 
 }
 
@@ -101,72 +96,6 @@ void CCU60_CH1_IRQHandler (void)
     /* 用户代码 */
     //LED_Ctrl(LED1, RVS);        // 电平翻转,LED2闪烁
 
-}
-
-/*************************************************************************
- *  函数名称：void CCU61_CH0_IRQHandler(void)
- *  功能说明：
- *  参数说明：无
- *  函数返回：无
- *  修改时间：2023年11月10日
- *  备    注：CCU61_CH0使用的中断服务函数
- *************************************************************************/
-void CCU61_CH0_IRQHandlerXXXXXXXXXXXXXXX (void)
-{
-    /* 开启CPU中断  否则中断不可嵌套 */
-    IfxCpu_enableInterrupts();
-
-    // 清除中断标志
-    IfxCcu6_clearInterruptStatusFlag(&MODULE_CCU61, IfxCcu6_InterruptSource_t12PeriodMatch);
-
-
-}
-
-
-
-void CCU61_CH0_IRQHandler (void)
-{
-    /* 开启CPU中断  否则中断不可嵌套 */
-    IfxCpu_enableInterrupts();
-
-    // 清除中断标志
-    IfxCcu6_clearInterruptStatusFlag(&MODULE_CCU61, IfxCcu6_InterruptSource_t12PeriodMatch);
-
-    /* 用户代码 */
-    /* 获取编码器值 */
-
-
-}
-/*************************************************************************
- *  函数名称：void CCU61_CH1_IRQHandler(void)
- *  功能说明：
- *  参数说明：无
- *  函数返回：无
- *  修改时间：2023年11月10日
- *  备    注：CCU61_CH1使用的中断服务函数
- *************************************************************************/
-void CCU61_CH1_IRQHandler (void)
-{
-    /* 开启CPU中断  否则中断不可嵌套 */
-    IfxCpu_enableInterrupts();
-
-    // 清除中断标志
-    IfxCcu6_clearInterruptStatusFlag(&MODULE_CCU61, IfxCcu6_InterruptSource_t13PeriodMatch);
-
-
-                  //LED_Ctrl(LED0, RVS);
-                  //PIN_Reverse(P20_8);
-                  GPIO_Timer();          //GPIO外设线程
-
-                  MOTOR_Timer();          //电机控制线程
-
-                  //SOC_Timer();            //电量计监测线程
-
-                  ICAR_Timer();           //智能车综合处理线程计数器
-                  USB_Edgeboard_Timr();   //USB通信线程
-
-    /* 用户代码 */
-   // LED_Ctrl(LED3, RVS);        // 电平翻转,LED闪烁
 }
 
 /*************************************************************************

@@ -10,6 +10,8 @@
 
 /*-----------------------------------------  I N C L U D E S  -----------------------------------------*/
 #include "include.h"
+#if 0
+
 
 
 /*---------------------------------------  D E F I N I T I O N  ---------------------------------------*/
@@ -101,7 +103,8 @@ void SOC_BatWork(void);									    //SOC控制器
 
 unsigned char SOC_Init(void);								//SOC初始化
 void SOC_Timer(void);										//电量计IC控制时序
-void SOC_Handle(void);										//电量计IC控制逻辑
+void SOC_Handle(void);
+#endif										//电量计IC控制逻辑
 #endif
 
 

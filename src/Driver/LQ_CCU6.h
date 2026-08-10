@@ -39,10 +39,6 @@ QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ*/
 #include <IfxScuCcu.h>
 
 
-extern volatile sint16 ECPULSE1;          //速度全局变量
-extern volatile sint16 ECPULSE2;          //速度全局变量
-extern volatile sint32 RAllPulse;         //速度全局变量
-
 /**
  * 	CCU6模块枚举
  */
@@ -69,7 +65,6 @@ typedef enum
 
 /** CCU6定时器中断 CCU60   中断归哪个内核管理？ 范围：0：CPU0   1：CPU1   3：DMA*/
 #define  CCU60_VECTABNUM       0
-
 
 
 /** CCU6定时器中断 CCU61  channel0 中断服务函数优先级   范围：1-255   数字越大 优先级越高  注意优先级不要重复 */
